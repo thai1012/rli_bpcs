@@ -29,7 +29,8 @@ Nội dung bài lab tập trung vào kỹ thuật giấu và tách tin trong vid
 imodule https://github.com/thai1012/rli_bpcs/raw/refs/heads/main/imodule.tar
 labtainer -r rli_bpcs
 
-Tải video đầu vào
+### Bước 2: Tải video đầu vào
+
 ```bash
 curl -L "https://drive.google.com/uc?export=download&id=1eKEQlHXXAqRJZv3wu7EsRHRGOa_9ztlt" -o input.mp4 2> result.txt
 
