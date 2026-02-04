@@ -30,7 +30,7 @@ imodule https://github.com/thai1012/rli_bpcs/raw/refs/heads/main/imodule.tar
 labtainer -r rli_bpcs
 ```
 
-### Bước 2: Tải video đầu vào
+### Tải video đầu vào
 
 ```bash
 curl -L "https://drive.google.com/uc?export=download&id=1eKEQlHXXAqRJZv3wu7EsRHRGOa_9ztlt" -o input.mp4 2> result.txt
