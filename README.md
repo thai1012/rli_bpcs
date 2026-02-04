@@ -28,24 +28,25 @@ Nội dung bài lab tập trung vào kỹ thuật giấu và tách tin trong vid
 ```bash
 imodule https://github.com/thai1012/rli_bpcs/raw/refs/heads/main/imodule.tar
 labtainer -r rli_bpcs
+```
 
 ### Bước 2: Tải video đầu vào
 
 ```bash
 curl -L "https://drive.google.com/uc?export=download&id=1eKEQlHXXAqRJZv3wu7EsRHRGOa_9ztlt" -o input.mp4 2> result.txt
-
-Chuyển thông điệp sang bit
+```
+### Chuyển thông điệp sang bit
 ### Thông điệp đầu vào: STEGO
 
 ```bash
 python3 message_to_bits.py
 cat bits_mes.txt
-
+```
 ### Tách frame video
 
 ```bash
 python3 extract_frames.py
-
+```
 
 ### Các frame được lưu trong thư mục extract_frames.
 ### Tính toán RLI
@@ -53,17 +54,18 @@ python3 extract_frames.py
 ```bash
 python3 rli_process.py
 cat rli_map.csv
+```
 
 ### Giấu tin vào video
 
 ```bash
 python3 embed.py
-
+```
 ### Tách tin
 
 ```bash
 python3 extract_bpcs_rli_standalone.py
-
+```
 
 ### Thông điệp thu được giống với thông điệp ban đầu: STEGO.
 
@@ -71,8 +73,9 @@ python3 extract_bpcs_rli_standalone.py
 
 ```bash
 checkwork
-
+```
 ### Kết thúc lab
 
 ```bash
 stoplab
+```
