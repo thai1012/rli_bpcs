@@ -42,7 +42,7 @@ curl -L "https://drive.google.com/uc?export=download&id=1eKEQlHXXAqRJZv3wu7EsRHR
 python3 message_to_bits.py
 cat bits_mes.txt
 ```
-(bpcs1.png)
+![Kết quả](bpcs1.png)
 ### Tách frame video
 
 ```bash
