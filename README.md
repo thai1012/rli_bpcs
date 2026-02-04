@@ -43,11 +43,14 @@ python3 message_to_bits.py
 cat bits_mes.txt
 ```
 ![Kết quả](bpcs1.png)
+
+![Kết quả](bpcs2.png)
 ### Tách frame video
 
 ```bash
 python3 extract_frames.py
 ```
+![Kết quả](bpcs3.png)
 
 ### Các frame được lưu trong thư mục extract_frames.
 ### Tính toán RLI
@@ -56,6 +59,7 @@ python3 extract_frames.py
 python3 rli_process.py
 cat rli_map.csv
 ```
+![Kết quả](bpcs5.png)
 
 ### Giấu tin vào video
 
@@ -67,7 +71,7 @@ python3 embed.py
 ```bash
 python3 extract_bpcs_rli_standalone.py
 ```
-
+![Kết quả](bpcs6.png)
 ### Thông điệp thu được giống với thông điệp ban đầu: STEGO.
 
 ### Kiểm tra kết quả
